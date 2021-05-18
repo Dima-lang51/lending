@@ -198,6 +198,10 @@ footer .copyright {
     margin-right: auto;
     margin-left: auto;
   }
+  
+  .container h2 {
+    text-align: center;
+  }
 
   .blog .post {
     min-width: 280px;
