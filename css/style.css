@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* General */
+body {
+  font-family: Roboto;
+}
+
+p {
+  font-size: 16px;
+  color: #2e3a59;
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 45px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  color: #222222;
+}
+
+h3 {
+  font-size: 25px;
+  color: #222222;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand {
+  font-size: 30px;
+}
+
+.menu li {
+  float: left;
+  font-size: 17px;
+  list-style-type: none;
+}
+
+.menu {
+  padding-left: 0;
+  margin: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+header .brand {
+  float: left;
+  color: #145f91;
+  margin-bottom: 30px;
+}
+
+header .menu {
+  float: right;
+  margin-bottom: 30px;
+}
+
+header .menu li {
+  padding-left: 20px;
+}
+
+header .menu li a {
+  color: rgb(170, 139, 139);
+}
+
+header .menu li a:hover {
+  color: rgb(187, 67, 67);
+}
+
+.jumbotron {
+  background-image: url(../img/pexels-james.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  min-height: 260px;
+  text-align: center;
+  clear: both;
+}
+
+.jumbotron .button {
+  display: inline-block;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 40px;
+  background-color: #d44889;
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+.jumbotron .button:hover {
+  background-color: chocolate;
+}
+
+/* Services */
+.service .service {
+  width: 33.333333;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.service {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.service fa {
+  color: #947c7c;
+  margin-bottom: 15px;
+}
+
+/* Blog */
+.blog {
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ece2e2;
+}
+
+.blog h2 {
+  text-align: center;
+}
+
+.blog .post {
+  padding-top: 35px;
+  display: inline-block;
+}
+
+.blog .post img {
+  float: left;
+  margin-right: 30px;
+}
+
+/* Footer */
+footer {
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #516685;
+}
+
+footer .brand {
+  color: #a3badd;
+}
+
+footer .menu li {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+footer .menu li a {
+  color: #a3badd;
+}
+
+footer .menu li a:hover {
+  color: rgb(187, 67, 67);
+}
+
+footer .menu {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+footer .copyright {
+  font-size: 12px;
+  color: rgb(211, 204, 204);
+}
+
+@media (max-width: 575px) {
+  .service .service {
+    width: 100%;
+    float: none;
+  }
+
+  .blog .post img {
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .blog .post {
+    min-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+  }
+}
