@@ -31,6 +31,11 @@ h3 {
   margin-right: auto;
 }
 
+.container h2 {
+  text-align: center;
+}
+
+
 .brand {
   font-size: 30px;
 }
